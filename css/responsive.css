@@ -1,0 +1,90 @@
+
+
+@media screen and (max-width: 1200px){
+	.header{
+		flex-direction: column;
+		height: auto;
+	}
+	
+	.page-navbar{
+		margin: 20px 20px 20px 80px;
+		position: absolute;
+		top:0;
+		left: 0;
+	}
+	.profile{
+		position: relative;
+		margin-top: 20px;
+		width: 100%;
+		max-width: 560px;
+		height: auto;
+		box-shadow: none;
+		margin-bottom: 20px;
+	}
+	.main{
+		height: auto;
+		width: 100%;
+		max-width: 560px;
+	}
+	.header-navbar{
+		margin-bottom: 100px;
+	}
+	.skills-design,.works-item:first-child{
+		border: 0;
+	}
+}
+
+
+@media screen and (max-width: 955px){
+	.main-contents,.resume-contents{
+		grid-template-columns: 1fr;
+	}
+	.main-info{
+		border:0;
+	}
+	.main-feature-item{
+		width: 100%;
+	}
+	.resume-exp{
+		border:0;
+	}
+
+}
+@media screen and (max-width: 870px){
+	.page-navbar{
+		position: relative;
+		flex-direction: row;
+		width: 100%;
+		margin:0px;
+		height: 67px;
+	}
+	.page-navbar{
+		position: fixed;
+	}
+	.profile{
+		margin-top: 0;
+	}
+	
+	.page-navbar-link:not(:last-child){
+		border-bottom:0;
+		border-right: 1px solid;
+		border-image:linear-gradient(rgba(255, 255, 255,0.2) 10%,rgb(49,49,58));
+		border-image-slice: 1;
+	}
+}
+@media screen and (max-width: 625px){
+	.skills-content,.works-content,.contact-feature{
+		grid-template-columns: 1fr;
+	}
+	#contact-form1{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.form-name,.form-email{
+		width: 100%;
+	}
+	.form-name{
+		margin-bottom: 20px;
+	}
+}
+

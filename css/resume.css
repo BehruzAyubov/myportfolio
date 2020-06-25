@@ -1,0 +1,74 @@
+/*resume*/
+.resume-edu{
+	padding: 30px;
+}
+.resume-exp{
+	padding: 30px;
+	border-right: 1px solid;
+	border-image:linear-gradient(rgba(255, 255, 255,0.2) 10%,rgb(49,49,58));
+	border-image-slice: 1;
+}
+
+.resume-exp-title,.resume-edu-title{ 
+	font-family: 'Poppins', sans-serif;
+	font-size:17px;
+	font-weight: 500;
+	line-height: normal;
+	color:  rgba(255, 255, 255, 0.85);
+	text-transform: uppercase;
+	
+}
+.resume-icon{
+	display: block;
+	font-size: 28px;
+	color:rgb(120, 204, 109);
+	margin-right: 10px;
+}
+.resume-header{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding-bottom: 20px;
+}
+.resume-block{
+	height: 230px;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-image:linear-gradient(90deg,rgba(255, 255, 255,0.2) 10%,rgb(49,49,58));
+	border-image-slice: 1;
+}
+.resume-block-year{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-size:13px;
+	font-weight: 400;
+	color:rgb(102, 102, 102);
+	border: 1px solid rgb(102, 102, 102);
+	display: inline-block;
+	border-radius: 4px;
+	padding: 0px 4px;
+}
+.block-year-green{
+	color:rgb(120, 204, 109);
+	border: 1px solid rgb(120, 204, 109);
+}
+.resume-block-role{
+	font-family: 'Poppins', sans-serif;
+	font-size:17px;
+	font-weight: 500;
+	color:  rgba(255, 255, 255, 0.85);
+}
+.resume-block-place{
+	font-family: 'Poppins', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color: rgb(153, 153, 153);
+	margin-bottom: 20px;
+}
+.resume-block-article{
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.55);
+}
