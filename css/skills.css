@@ -1,6 +1,3 @@
-
-
-
 .skills-content{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -8,14 +5,25 @@
 	border-image:linear-gradient(90deg,rgba(255, 255, 255,0.2),rgb(49,49,58));
 	border-image-slice: 1;
 }
-.skills-design{
+.skills-knowledge{
 	border-right: 1px solid;
 	border-image:linear-gradient(rgba(255, 255, 255,0.2),rgb(49,49,58));
 	border-image-slice: 1;
 }
+
 .skills-language,.skills-design{
 	padding: 30px;
 }
+
+.skills-knowledge{
+	padding: 30px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+
+}
+
 .skills-header{
 	display: flex;
 	align-items: center;
@@ -79,4 +87,13 @@
 }
 .circle-not-fill{
 	background-color:  rgb(62,65,72);
+}
+.knowledge-list{
+	list-style-type: disc;
+	list-style-position: inside;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.85);
+	margin-top: 20px;
 }
